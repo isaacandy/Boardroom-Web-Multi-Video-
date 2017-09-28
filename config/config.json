@@ -1,0 +1,30 @@
+{
+   "OpenTok":{
+      "apiKey": "45967232",
+      "apiSecret": "8eafe3ebce78ef157db2894eb8acbaa7142041da"
+   },
+   "Firebase":{
+      "dataUrl":"https://boardroom-3362c.firebaseio.com/",
+      "authSecret":"raFPVfSIR6s48MijtEiFYBCYxmTXNGULhsgZ9Qzi"
+   },
+"Archiving": {
+    "enabled": true,
+    "archiveAlways": false,
+    "pollingInitialTimeout": 5000,
+    "pollingTimeoutMultiplier": 1.5,
+    "archiveManager": {
+        "enabled": true,
+        "emptyRoomMaxLifetime": 3
+      },
+   },
+   "Feedback":{
+      "enabled":true
+   },
+   "Screensharing":{
+      "enabled":true,
+      "chromeExtensionId": "idjdegcicoappochknpcmenkffgddgig",
+      "annotations":{
+         "enabled":true
+      },
+   },
+}
